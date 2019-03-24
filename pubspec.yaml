@@ -1,0 +1,16 @@
+name: dartappzipper
+description:
+version: 0.9.0
+homepage: https://github.com/takutaro/dartappzipper
+author: takutaro09
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dependencies:
+  args:
+  pubspec_parse:
+  archive:
+
+executables:
+  dartappzipper: main
