@@ -31,7 +31,7 @@ $ dartappzipper --target <your-dartapp-directory>
 いくつか前提条件や制約があります。
 
 * AngularDart等、`webdev build`にてWEBアプリをbuildする際の出力先指定(`--output`)は行わない前提とします（指定無しのデフォルト値は`--output web:build`です）。つまり、buildディレクトリ配下にはDartファイルが配置されない前提ということです。関連して、
-  * webディレクトリはzipファイルから除外します（buildファイル内にコンパイルされているため）
+  * webディレクトリはzipファイルから除外します（buildディレクトリ内にコンパイルされているため）
   * build/packagesディレクトリはzipファイルから除外します（使用されていない(はず・・の)ため）
   * ドットファイル、ドットディレクトリはzipファイルから除外します（使用されないため）。  
     なお`.packages`ファイルは再構成されてzipファイルに追加されます。
